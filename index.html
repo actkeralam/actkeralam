@@ -1,0 +1,337 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>ACT Keralam — Association of Computer Science Teachers</title>
+  <meta name="description" content="ACT Keralam is the Association of Computer Science Teachers in Kerala, supporting CS educators across Higher Secondary Schools." />
+  <link rel="stylesheet" href="style.css" />
+  <!-- Google Fonts preconnect for performance -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+</head>
+<body>
+
+  <!-- ==============================
+       STICKY NAVIGATION BAR
+  ============================== -->
+  <nav class="navbar" role="navigation" aria-label="Main navigation">
+    <div class="nav-container">
+
+      <!-- Brand / Logo -->
+      <a href="index.html" class="nav-brand" aria-label="ACT Keralam home">
+        <div class="nav-logo-icon" aria-hidden="true">ACT</div>
+        <div class="nav-brand-text">
+          <span class="nav-brand-name">ACT Keralam</span>
+          <span class="nav-brand-sub">Association of Computer Science Teachers</span>
+        </div>
+      </a>
+
+      <!-- Navigation Links -->
+      <ul class="nav-links" role="list">
+        <li><a href="index.html" class="active">Home</a></li>
+        <li><a href="training.html">Training Content</a></li>
+      </ul>
+
+      <!-- Mobile Menu Toggle -->
+      <button class="nav-toggle" aria-label="Toggle navigation menu" aria-expanded="false">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+
+    </div>
+  </nav>
+
+
+  <!-- ==============================
+       HERO / BANNER SECTION
+  ============================== -->
+  <header class="hero" role="banner">
+
+    <!-- Subtle animated background pattern -->
+    <div class="hero-bg-pattern" aria-hidden="true"></div>
+
+    <!-- Tech-themed floating decorative characters -->
+    <div class="hero-deco" aria-hidden="true">
+      <span class="hero-deco-item">&lt;/&gt;</span>
+      <span class="hero-deco-item">{ }</span>
+      <span class="hero-deco-item">01</span>
+      <span class="hero-deco-item">def</span>
+      <span class="hero-deco-item">if</span>
+      <span class="hero-deco-item">[ ]</span>
+    </div>
+
+    <!-- Hero content -->
+    <div class="hero-content">
+      <div class="hero-eyebrow">Kerala · Higher Secondary CS Education</div>
+
+      <h1 class="hero-heading">
+        Association of<br />
+        Computer Science Teachers<br />
+        Keralam
+      </h1>
+
+      <p class="hero-subtitle">
+        A unified platform for CS educators across Keralam to grow together, share knowledge, and elevate the quality of Computer Science education.
+      </p>
+
+      <div class="hero-cta-row">
+        <a href="training.html" class="btn-primary">
+          <!-- Arrow icon -->
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+          Explore Training
+        </a>
+        <a href="#about" class="btn-secondary">Learn More</a>
+      </div>
+
+      <!-- Stats row -->
+      <div class="hero-stats">
+        <div class="hero-stat">
+          <span class="hero-stat-number" data-target="14" data-suffix="+">14</span>
+          <span class="hero-stat-label">Districts Covered</span>
+        </div>
+        <div class="hero-stat">
+          <span class="hero-stat-number" data-target="2000" data-suffix="+">2000+</span>
+          <span class="hero-stat-label">CS Teachers</span>
+        </div>
+      </div>
+    </div>
+  </header>
+
+
+  <!-- ==============================
+       ABOUT / CONTENT SECTION
+  ============================== -->
+  <section class="about-section" id="about" aria-labelledby="about-heading">
+    <div class="section-container">
+      <div class="about-inner">
+
+        <!-- Text block -->
+        <div class="about-text">
+          <span class="section-tag">Who We Are</span>
+          <h2 class="section-title" id="about-heading">Empowering CS Teachers Across Keralam</h2>
+
+          <!-- Association description — exact content as required -->
+          <p>
+            The Association of Computer Science Teachers (ACT) is a group of Computer Science/ Computer Applications teachers working in Higher Secondary schools across Keralam. It provides a platform for teachers to come together, share ideas, and support each other in improving teaching and learning.
+          </p>
+          <p>
+            The association organizes training programs, workshops, and discussions to help teachers stay updated with new developments in Computer Science and teaching methods. It also helps in addressing common academic concerns and improving the quality of Computer Science education.
+          </p>
+          <p>
+            Through teamwork and sharing of knowledge, ACT aims to strengthen Computer Science education and benefit both teachers and students in Kerala.
+          </p>
+        </div>
+
+        <!-- Visual card -->
+        <div class="about-visual">
+          <div class="about-card">
+            <div class="about-card-icon" aria-hidden="true">🎓</div>
+            <h3 class="about-card-title">Our Mission</h3>
+            <p class="about-card-text">
+              To create a strong, connected community of CS educators who inspire the next generation of technology leaders in Kerala.
+            </p>
+            <!-- Keyword pills -->
+            
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <hr class="divider" aria-hidden="true" />
+
+  <!-- ==============================
+       SLIDESHOW GALLERY SECTION
+
+       HOW TO ADD YOUR IMAGES:
+       1. Put your image files in an "images/" folder
+          next to index.html (any aspect ratio is fine).
+       2. In the <div class="slideshow-track"> below,
+          replace each placeholder <div class="slide"> with:
+
+          <div class="slide">
+            <img src="images/your-photo.jpg" alt="Describe the photo" />
+            <div class="slide-caption">Caption text here</div>
+          </div>
+
+       3. Add or remove <div class="slide"> blocks freely —
+          the JS will auto-update the dot indicators.
+       The slideshow handles portrait, landscape, and square
+       images correctly (object-fit: contain keeps full image
+       visible; object-fit: cover fills the frame).
+  ============================== -->
+  <section class="gallery-section" id="gallery" aria-labelledby="gallery-heading">
+    <div class="section-container">
+
+      <div class="section-header">
+        <span class="section-tag">Moments</span>
+        <h2 class="section-title" id="gallery-heading">Our Events &amp; Activities</h2>
+        <p class="section-subtitle">Glimpses from our workshops, training sessions, and community gatherings.</p>
+      </div>
+
+    </div><!-- /.section-container — intentionally ends here so slideshow is full-width -->
+
+    <!-- ---- Slideshow ---- -->
+    <div class="slideshow" role="region" aria-label="Event photo slideshow" aria-roledescription="carousel">
+
+      <!-- Slide track — all slides sit side-by-side, JS translates this -->
+      <div class="slideshow-track" id="slideshowTrack">
+
+        <!--
+          ════════════════════════════════════════
+          SLIDE 1 — replace placeholder with your image:
+          <img src="images/photo1.jpg" alt="Python Workshop 2024" />
+          ════════════════════════════════════════
+        -->
+        <div class="slide" role="group" aria-roledescription="slide" aria-label="Slide 1 of 6">
+          <div class="slide-img-wrap">
+            <img src="images/1.jpeg"  />
+            <!-- ↑ Remove the div above and add your <img> tag here ↑ -->
+          </div>
+          
+        </div>
+
+        <!-- SLIDE 2 -->
+        <div class="slide" role="group" aria-roledescription="slide" aria-label="Slide 2 of 6">
+          <div class="slide-img-wrap">
+            <img src="images/2.jpeg"  />
+          </div>
+          
+        </div>
+
+        <!-- SLIDE 3 -->
+        <div class="slide" role="group" aria-roledescription="slide" aria-label="Slide 3 of 6">
+          <div class="slide-img-wrap">
+            <img src="images/3.jpeg"  />
+          </div>
+          
+        </div>
+
+        <!-- SLIDE 4 -->
+        <div class="slide" role="group" aria-roledescription="slide" aria-label="Slide 4 of 6">
+          <div class="slide-img-wrap">
+            <img src="images/4.jpeg"  />
+          </div>
+          
+        </div>
+
+        <!-- SLIDE 5 -->
+        <div class="slide" role="group" aria-roledescription="slide" aria-label="Slide 5 of 6">
+          <div class="slide-img-wrap">
+            <img src="images/5.jpeg"  />
+          </div>
+          
+        </div>
+
+        <!-- SLIDE 6 -->
+        <div class="slide" role="group" aria-roledescription="slide" aria-label="Slide 6 of 6">
+          <div class="slide-img-wrap">
+            <img src="images/6.jpeg"  />
+          </div>
+          
+        </div>
+              
+
+        <!-- SLIDE 7 -->
+        <div class="slide" role="group" aria-roledescription="slide" aria-label="Slide 7 of 7">
+          <div class="slide-img-wrap">
+            <img src="images/7.jpeg"  />
+          </div>
+        
+        </div>
+              
+
+        <!-- SLIDE 8 -->
+        <div class="slide" role="group" aria-roledescription="slide" aria-label="Slide 8 of 8">
+          <div class="slide-img-wrap">
+            <img src="images/8.jpeg"  />
+          </div>
+          
+        </div>
+              
+
+        <!-- SLIDE 9 -->
+        <div class="slide" role="group" aria-roledescription="slide" aria-label="Slide 9 of 9">
+          <div class="slide-img-wrap">
+            <img src="images/9.jpeg"  />
+          </div>
+        </div>
+              
+
+      </div><!-- /.slideshow-track -->
+
+      <!-- Prev / Next arrow buttons -->
+      <button class="slideshow-btn slideshow-btn--prev" id="slidePrev" aria-label="Previous slide">
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M15 18l-6-6 6-6"/></svg>
+      </button>
+      <button class="slideshow-btn slideshow-btn--next" id="slideNext" aria-label="Next slide">
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M9 18l6-6-6-6"/></svg>
+      </button>
+
+      <!-- Dot indicators — generated by JS, shown here as fallback -->
+      <div class="slideshow-dots" id="slideshowDots" role="tablist" aria-label="Slide indicators"></div>
+
+      <!-- Autoplay progress bar -->
+      <div class="slideshow-progress" aria-hidden="true">
+        <div class="slideshow-progress-bar" id="progressBar"></div>
+      </div>
+
+    </div><!-- /.slideshow -->
+
+  </section>
+
+
+  <!-- ==============================
+       FOOTER
+  ============================== -->
+  <footer role="contentinfo">
+    <div class="footer-top">
+
+      <!-- Brand column -->
+      <div class="footer-brand">
+        <div class="nav-logo-icon" aria-hidden="true" style="width:40px;height:40px;font-size:0.9rem;">ACT</div>
+        <div class="footer-brand-name">ACT Keralam</div>
+        <p class="footer-brand-text">
+          Association of Computer Science Teachers, Keralam — building a stronger community of educators for a brighter future in technology education.
+        </p>
+      </div>
+
+      <!-- Quick links column -->
+      <div class="footer-col">
+        <h4 class="footer-col-title">Pages</h4>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="training.html">Training Content</a></li>
+        </ul>
+      </div>
+
+      <!-- Connect column -->
+      <div class="footer-col">
+        <h4 class="footer-col-title">Connect</h4>
+        <ul>
+          <li><a href="https://youtube.com" target="_blank" rel="noopener noreferrer">WhatsApp Group</a></li>
+        </ul>
+      </div>
+
+    </div>
+
+    <!-- Bottom bar -->
+    <div class="footer-bottom">
+      <p class="footer-copy">
+        &copy; <span id="year"></span> <span>ACT Keralam</span>. All rights reserved.
+      </p>
+      <p class="footer-copy">Made with ❤️ for Kerala's CS educators</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+  <script>
+    // Set current year in footer dynamically
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+
+</body>
+</html>
